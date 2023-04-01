@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line Chart</title>
+</head>
+<body>
+    <button id="btn-back" (click)="btnBack()">Back to Home</button>
+    <div>
+        <h2>Name of the Country</h2>
+        <div class="data-details">
+            <div>Number of entries <br><span style="font-weight: bolder;">{{ numberOfEntries }}</span></div>
+            <div>Total Number medals <br><span style="font-weight: bolder;">{{ totalMedals }}</span></div>
+            <div>Total Number of athletes <br><span style="font-weight: bolder;">{{ totalAthletes }}</span></div>
+        </div>
+        <canvas #myChartRef mdbChart></canvas>
+    </div>
+
+</body>
+</html>

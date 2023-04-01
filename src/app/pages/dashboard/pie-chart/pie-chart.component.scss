@@ -1,0 +1,66 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+   
+    h2 {
+        margin: auto;
+        text-align: center;
+        height: 35px;
+        margin-bottom: 2%;
+        background-color: rgb(0, 102, 102, 0.80);
+        color: #ffffff;
+        width: 300px;
+        border-radius: 0.3em;
+        font-weight: 100;
+        padding-top: 5px;
+        }
+    .pie-chart{
+        display: flex;
+        margin: auto;
+        text-align: center;
+        height: 300px;
+        width: 50%;
+        height: 60px;
+
+        #number_of_JOs{
+            margin: auto;
+            text-align: center;
+            border: 2px solid;
+            border-radius: 1em;
+            width: 30%;
+            height: 60px;
+            line-height:5px;
+            border-color: rgb(0, 102, 102, 0.80);
+            color: gray;
+
+            span{
+                color: black;
+                font-weight: bolder !important;
+            }
+
+        }
+    
+        #number_of_countries{
+            margin: auto;
+            text-align: center;
+            border: 2px solid;
+            border-radius: 1em;
+            width: 30%;
+            height: 60px;
+            line-height:5px;
+            border-color:  rgba(0, 102, 102,0.60);
+            color: gray;
+            span{
+                color: black;
+                font-weight: bolder !important;
+            }
+        }
+    }
+#chartCont{
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    }
+}

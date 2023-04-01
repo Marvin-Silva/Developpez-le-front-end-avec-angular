@@ -1,0 +1,20 @@
+<html>
+  <head>
+  </head>
+<body>
+<h2>Medals per Country</h2>
+<div class="pie-chart">
+  <div id="number_of_JOs">
+    <p>Number of JOs</p>
+    <span>{{ participation }}</span>
+  </div>
+  <div id="number_of_countries">
+    <p>Number of countries</p>
+    <span style="font-weight: bolder">{{ pie?.length }}</span>
+  </div>
+</div>
+<div id="chartCont">
+  <canvas id="chart"> </canvas>
+</div>
+</body>
+</html>
